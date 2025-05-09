@@ -30,7 +30,6 @@ namespace Catalog.API.Products.CreateProduct
             //return CreateProductResult result
             return new CreateProductResult(Guid.NewGuid());
 
-            throw new NotImplementedException();
         }
     }
 }

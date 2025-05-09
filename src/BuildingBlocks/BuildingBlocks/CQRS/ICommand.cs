@@ -2,10 +2,12 @@
 
 namespace BuildingBlocks.CQRS
 {
-    public interface IComand : ICommand<Unit>
+    public interface IComand 
+        : ICommand<Unit>
     {
     }
-    public interface ICommand<out TResponse> : IRequest<TResponse>
+    public interface ICommand<out TResponse> 
+        : IRequest<TResponse>
     {
     }
 }
